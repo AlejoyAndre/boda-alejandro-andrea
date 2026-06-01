@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alejandro & Andrea</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="bgMusic" loop>
+    <source src="assets/musica.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PORTADA INICIAL -->
+<div id="cover">
+
+    <img src="assets/portada.png" alt="Portada">
+
+    <button id="openInvitation">
+        ♫ Abrir Invitación ♫
+    </button>
+
+</div>
+
+<!-- CONTENIDO -->
+<div id="invitation">
+
+    <!-- FECHA -->
+    <section class="page fade">
+        <img src="assets/fecha.png">
+
+        <div id="countdownContainer">
+
+            <h2>Faltan pocos días</h2>
+
+            <div id="countdown">
+
+                <div>
+                    <span id="days">00</span>
+                    <small>Días</small>
+                </div>
+
+                <div>
+                    <span id="hours">00</span>
+                    <small>Horas</small>
+                </div>
+
+                <div>
+                    <span id="minutes">00</span>
+                    <small>Min</small>
+                </div>
+
+                <div>
+                    <span id="seconds">00</span>
+                    <small>Seg</small>
+                </div>
+
+            </div>
+
+            <p id="specialMessage"></p>
+
+        </div>
+    </section>
+
+    <!-- HAPPY TOGUETHER -->
+    <section class="page fade">
+        <img src="assets/happy toguether.png">
+    </section>
+
+    <!-- CODIGO -->
+    <section class="page fade">
+        <img src="assets/codigo.png">
+    </section>
+
+    <!-- LLUVIA DE SOBRES -->
+    <section class="page fade location-section">
+
+        <img src="assets/lluvia de sobres.png">
+
+        <!-- WAZE -->
+        <a
+            class="location-link"
+            href="https://ul.waze.com/ul?place=ChIJR946dxGAP44RFJEYUh5q6o8&ll=4.85655030%2C-74.20117960&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+            target="_blank">
+        </a>
+
+        <!-- GOOGLE FORMS -->
+        <a
+            class="rsvp-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScvpvzkG9oHREQwN1w_dA4Xk_0W_-WmXp0yqSe0YKIFXY3WOA/viewform?usp=dialog"
+            target="_blank">
+        </a>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
